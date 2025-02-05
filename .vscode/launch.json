@@ -5,14 +5,20 @@
             "name": "Debug Current Rust File",
             "type": "lldb",
             "request": "launch",
-            "${fileDirname}/../Cargo.toml"
-            "program": "${fileDirname}/../target/debug/${fileBasenameNoExtension}.exe",
+            "program": "${fileDirname}/../target/debug/${input:exeName}.exe",
             "args": [],
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "cargo build current",
             "console": "integratedTerminal",
             "stopOnEntry": false,
             "sourceLanguages": ["rust"]
+        }],
+        "inputs": [
+        {
+            "id": "exeName",
+            "type": "promptString",
+            "description": "Type the name of the program",
+            "default": "main"
         }
     ]
 }

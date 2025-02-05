@@ -14,9 +14,9 @@ release/
 
 # Ignore IDE/editor-specific files
 .idea/
-.vscode/
 !.vscode/launch.json
 !.vscode/tasks.json
+.vscode/
 *.iml
 
 # Ignore logs and temporary files

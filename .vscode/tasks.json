@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "cargo",
             "args": ["build", "--manifest-path", "${fileDirname}/../Cargo.toml"],
-                     //"--bin", "${fileBasenameNoExtension}"
+                     //"--bin", "${fileBasenameNoExtension}"],
             //],
             "problemMatcher": []
         }
