@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cargo build current",
+            "type": "shell",
+            "command": "cargo",
+            "args": ["build", "--manifest-path", "${fileDirname}/../Cargo.toml"],
+                     //"--bin", "${fileBasenameNoExtension}"
+            //],
+            "problemMatcher": []
+        }
+    ]
+}
