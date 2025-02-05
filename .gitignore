@@ -1,0 +1,45 @@
+# Ignore the target directory (generated binaries and dependencies)
+target/
+
+# Ignore Cargo.lock if this is a library
+# (For binaries, it's recommended to include it)
+Cargo.lock
+
+# Ignore Rust/Cargo specific files
+**/*.rs.bk
+
+# Ignore build artifacts
+debug/
+release/
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Ignore executable binaries (just in case)
+*.exe
+
+# Ignore coverage results
+coverage/
+
+# Ignore Rust test output
+*.profraw
+
+# Ignore MacOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# Ignore custom build artifacts
+build/
