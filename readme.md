@@ -2,6 +2,7 @@
 
 Project for implementing the basics of crypto, learning Rust, and messing around with stuff.
 
+
 ## MODULAR ARITHMETIC
 
 - What are finite fields? (order p^k)
@@ -13,3 +14,8 @@ Project for implementing the basics of crypto, learning Rust, and messing around
 ## Rust 
 - How to represent them (Structs)
 - How to work with them (Behaviors/ Associated functions)
+
+## YOUTUBE CHANNEL
+Find the episodes where I record some of the work done for this repo.
+https://www.youtube.com/@CluelessDeveloper-u9t
+
